@@ -1,4 +1,4 @@
 # aspcore-004-blt-mec-busca
 
 # Anotacoes:
-- ...
+- Criar o database "aspcore-004-blt-mec-busca" no server do MongoDB.
