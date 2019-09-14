@@ -1,4 +1,5 @@
 # aspcore-004-blt-mec-busca
 
 # Anotacoes:
-- Criar o database "aspcore-004-blt-mec-busca" no server do MongoDB.
+- Criado o database "aspcore-004-blt-mec-busca" no server do MongoDB.
+- Adicione 2 registros na collection "cliente" no server do MongoDB.
