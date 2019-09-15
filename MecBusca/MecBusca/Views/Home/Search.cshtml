@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<MecBusca.Models.Cliente>
+
+@{
     ViewData["Title"] = "Search Page";
 }
 
@@ -9,3 +11,15 @@
         <p>@Html.Raw(ViewData["Count"]) clientes cadastrados!</p>
     </form>
 </div>
+
+<hr />
+
+@if (Model != null)
+{
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@Html.DisplayFor(modelItem => item.Nome)</li>
+        }
+    </ul>
+}

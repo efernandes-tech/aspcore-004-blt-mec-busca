@@ -17,10 +17,17 @@ namespace MecBusca.Models
             _db = _client.GetDatabase("aspcore-004-blt-mec-busca");
         }
 
+        [Obsolete]
         public long CountClientes()
         {
-            //return _db.collection.countDocuments(typeof(Cliente).Name, '');
             return _db.GetCollection<Cliente>(typeof(Cliente).Name).Count(new FilterDefinitionBuilder<Cliente>().Empty);
+        }
+
+        public IEnumerable<Cliente> GetClientes(string query)
+        {
+            var tags = query.ToUpper().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var filter = Builders<Cliente>.Filter.All(c => c.Tags, tags);
+            return _db.GetCollection<Cliente>(typeof(Cliente).Name).Find(filter).ToList();
         }
     }
 }

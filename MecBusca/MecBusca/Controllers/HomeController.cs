@@ -27,10 +27,17 @@ namespace MecBusca.Controllers
         }
 
         // HomeController.cs
-        public IActionResult Search()
+        public IActionResult Search(String q)
         {
             ViewData["Message"] = "Search page.";
-            ViewData["Count"] = new DataAccess().CountClientes();
+            var da = new DataAccess();
+            ViewData["Count"] = da.CountClientes();
+
+            if (!String.IsNullOrEmpty(q))
+            {
+                return View(da.GetClientes(q));
+            }
+
             return View();
         }
     }
