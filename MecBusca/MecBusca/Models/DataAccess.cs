@@ -17,8 +17,9 @@ namespace MecBusca.Models
             _db = _client.GetDatabase("aspcore-004-blt-mec-busca");
         }
 
-        public long CountCustomers()
+        public long CountClientes()
         {
+            //return _db.collection.countDocuments(typeof(Cliente).Name, '');
             return _db.GetCollection<Cliente>(typeof(Cliente).Name).Count(new FilterDefinitionBuilder<Cliente>().Empty);
         }
     }

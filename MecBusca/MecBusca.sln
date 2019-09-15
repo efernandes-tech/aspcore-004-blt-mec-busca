@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29209.62
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MecBusca", "MecBusca\MecBusca.csproj", "{6EE517CC-AFC2-4909-916C-1018599BD467}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MecBusca", "MecBusca\MecBusca.csproj", "{A3C27712-CF75-451B-A3E4-E68EFE88B49F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6EE517CC-AFC2-4909-916C-1018599BD467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EE517CC-AFC2-4909-916C-1018599BD467}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EE517CC-AFC2-4909-916C-1018599BD467}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EE517CC-AFC2-4909-916C-1018599BD467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C27712-CF75-451B-A3E4-E68EFE88B49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C27712-CF75-451B-A3E4-E68EFE88B49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C27712-CF75-451B-A3E4-E68EFE88B49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C27712-CF75-451B-A3E4-E68EFE88B49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5ED1394A-B5ED-4F67-B07D-61DDE695E976}
+		SolutionGuid = {078ACF48-6959-48A4-8821-4803F97CE5CD}
 	EndGlobalSection
 EndGlobal

@@ -16,5 +16,3 @@ namespace MecBusca.Models
         public List<string> Tags { get; set; }
     }
 }
-
-
